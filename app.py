@@ -51,6 +51,3 @@ if st.button("Predict"):
     prediction = model.predict([[age, annual_salary, credit_card_debt, net_worth]])
     st.write(f"Estimated Car Purchase Amount: ${prediction[0]:.2f}")
     """)
-
-print("Streamlit app created as 'app.py'.")
-print("To run the app, use the command: streamlit run app.py")
