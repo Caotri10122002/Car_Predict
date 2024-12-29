@@ -50,4 +50,3 @@ net_worth = st.number_input("Net Worth", min_value=0.0, step=1000.0)
 if st.button("Predict"):
     prediction = model.predict([[age, annual_salary, credit_card_debt, net_worth]])
     st.write(f"Estimated Car Purchase Amount: ${prediction[0]:.2f}")
-    """)
