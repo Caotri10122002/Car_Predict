@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load your dataset
-df = pd.read_csv("Car_Purchasing_Data.csv")
+df = pd.read_csv("Car_Purchasing_Data.csv",encoding='latin1')
 
 # App title
 st.title("Car Purchase Data Analysis")
